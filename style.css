@@ -10,20 +10,22 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(160deg, #0b0a64, #ca1111);
+  background: linear-gradient(160deg, #07063a, #550707);
 }
 
 .box-container {
-  background-color: whitesmoke;
+  background: linear-gradient(0deg, #000000, #f1f1f1);
+  /* background-color: whitesmoke; */
   text-align: center;
-  padding: 1.8rem;
+  padding: 1.2rem;
   border-radius: 10px;
   box-shadow: 5px 10px 15px black;
 }
 
-.box-container img {
+.box-container .img1,
+.box-container .img2 {
   width: 300px;
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 
 .box-container h1 {
