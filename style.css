@@ -22,10 +22,14 @@ body {
   box-shadow: 5px 10px 15px black;
 }
 
-.box-container .img1,
+.box-container .img1 {
+  width: 300px;
+  margin-bottom: -30px;
+}
 .box-container .img2 {
   width: 300px;
-  margin-bottom: -50px;
+  margin-bottom: -60px;
+  margin-top: -50px;
 }
 
 .box-container h1 {
@@ -37,7 +41,7 @@ body {
   width: 100%;
   padding: 10px 15px;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
   border: 2px solid royalblue;
   outline: none;
