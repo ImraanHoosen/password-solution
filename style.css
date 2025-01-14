@@ -25,6 +25,7 @@ body {
   width: 300px;
   margin-bottom: -30px;
 }
+
 .box-container h1 {
   margin-top: 10px;
   text-shadow: 2px 2px 5px black;
@@ -47,15 +48,55 @@ body {
 }
 
 .box-container .btn-group button {
-  background: linear-gradient(0deg, #090848, #6f0808);
-  color: whitesmoke;
+  background: silver;
+  color: black;
   border: none;
   padding: 8px 16px;
-  font-size: 14px;
+  font-size: 10px;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
 }
 
-.box-container .btn-group button:hover {
-  box-shadow: 2px 2px 10px rgb(47, 47, 47);
-  cursor: pointer;
+.box-container .btn-group .btn1:hover {
+  background: #40b910;
+  transition: 0.75s;
+  box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #10b924, 0px 0px 6px #40b910,
+    0px 0px 15px #40b910;
+  color: white;
+}
+
+.box-container .btn-group .btn2:disabled:hover {
+  background: silver;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  font-size: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.box-container .btn-group .btn2:hover {
+  background: #1072b9;
+  transition: 0.75s;
+  box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #1072b9, 0px 0px 6px #1072b9,
+    0px 0px 15px #1072b9;
+  color: white;
+}
+
+.box-container .btn-group .btn3:disabled:hover {
+  background: silver;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  font-size: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.box-container .btn-group .btn3:hover {
+  background: #b91010;
+  transition: 0.75s;
+  box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #b91010, 0px 0px 6px #b91010,
+    0px 0px 15px #b91010;
+  color: white;
 }
