@@ -66,7 +66,7 @@ body {
 
 .box-container .btn-group .btn1:hover {
   background: #40b910;
-  transition: 0.75s;
+  transition: 0.225s;
   box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #10b924, 0px 0px 6px #40b910,
     0px 0px 15px #40b910;
   color: white;
@@ -85,7 +85,7 @@ body {
 
 .box-container .btn-group .btn2:hover {
   background: #1072b9;
-  transition: 0.75s;
+  transition: 0.25s;
   box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #1072b9, 0px 0px 6px #1072b9,
     0px 0px 15px #1072b9;
   color: white;
@@ -103,7 +103,7 @@ body {
 
 .box-container .btn-group .btn3:hover {
   background: #b91010;
-  transition: 0.75s;
+  transition: 0.25s;
   box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #b91010, 0px 0px 6px #b91010,
     0px 0px 15px #b91010;
   color: white;
